@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@200;400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* NAVBAR */
+nav{
+    width: 100%;
+    height: 67px;
+    background-color: rgb(255, 255, 255);
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    z-index: 1;
+}
+nav .logo_name h2{
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(13, 209, 186);
+    letter-spacing: 3px;
+}
+nav .logo_name h2 i{
+    font-size: 30px;
+    color: rgb(13, 209, 186);
+}
+nav ul{
+    float: right;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding : 0px 30px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(13, 209, 186);
+    text-decoration: underline;
+}
+/*HOME SECTION*/
+#home{
+    width: 100%;
+    height: 750px;
+    background-image: url("./images/home-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home_content h1{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(13, 209, 186);
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+#home .home_content p{
+    width: 630px;
+    height: 230px;
+    text-align: center;
+    font-size: 17px;    
+}
+#home .home_content button{
+    width: 130px;
+    height: 50px;
+    background-color: white;
+    border: 2.5px rgb(13, 209, 186) solid;
+}
+#home .home_content button a{
+    color:rgb(13, 209, 186);
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#home .home_content button:hover{
+    background-color: rgb(13, 209, 186);
+    transition: all 0.5s;
+}
+#home .home_content button a:hover{
+    color: white;
+}
+/* ABOUT SECTION */
+#about h1{
+    font-size: 40px;
+    color: rgb(53, 51, 51);
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+#about h1 span{
+    color: rgb(13, 209, 186);
+}
+#about{
+    margin-top: 30px;
+}
+#about .about_content{
+    display: flex;
+    justify-content: space-between;
+}
+#about .about_content .about_img figure img{
+    width: 740px;
+    height: 500px;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+.about_content .about_text h4{
+    color: rgb(13, 209, 186);
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 28px;
+}
+.about_content .about_text p{
+    width: 700px;
+    height: 100px;
+    font-size: 16px;
+    color: rgb(101, 99, 99);
+}
+.about_content .about_text {
+    margin-top: 90px;
+    margin-right: 20px;
+}
+.about_content .about_text button{
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color:rgb(13, 209, 186) ;
+    border-radius: 3px;
+    border: 2px rgb(13, 209, 186) solid;
+    font-size: 17px;
+    font-weight: bold;
+}
+.about_content .about_text button:hover{
+    background-color: white;
+    border: 2px rgb(13, 209, 186) solid;
+    color: rgb(13, 209, 186);
+    font-weight: bold;
+}
+#about .about_boxes{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+#about .about_boxes .box{
+    border: 3px rgb(13, 209, 186) solid;
+    width: 250px;
+    height: 160px;
+    text-align: center;
+    justify-content: center;
+}
+#about .about_boxes .box i{
+    margin-top: 20px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: rgb(13, 209, 186);
+}
+#about .about_boxes .box h4{
+    font-size: 24px;
+    color: black;
+}
+#about .about_boxes .box h5{
+    color: rgb(70, 69, 69);
+    font-weight: bold;
+    font-size: 15px;
+}
+/* SERVICE SECTION*/
+#service{
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    height: 670px;
+}
+#service h1{
+    font-size: 40px;
+    color: rgb(53, 51, 51);
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#service h1 span{
+    color: rgb(13, 209, 186);
+}
+.service_section .service_first{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.service_section .service_second{
+    display: flex;
+    justify-content: space-around;
+}
+.service_box{
+    margin-top: 20px;
+    width: 400px;
+    height: 235px;
+    text-align: center;
+    border: 3px rgb(13, 209, 186) solid;
+    background-color: white;
+}
+.service_box i{
+    font-size: 33px;  
+    color: rgb(13, 209, 186);
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.service_box h4{
+    color: black;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.service_box p{
+    color: rgb(70, 69, 69);
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.service_box h5{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.service_box h5:hover{
+    color: rgb(13, 209, 186);
+    cursor: pointer;
+}
+/* PROJECT SECTION */
+#project{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(30, 30, 30);
+}
+#project h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+#project h1 span{
+    color: rgb(13, 209, 186);
+}
+.project_first{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.project_second{
+    display: flex;
+    justify-content: space-around;
+}
+.project_img figure img{
+    width: 400px;
+    height: 240px;
+}
+/* POST SECTION */
+#post h1{
+    font-size: 40px;
+    color: rgb(53, 51, 51);
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#post h1 span{
+    color: rgb(13, 209, 186);
+}
+.post_section{
+    display: flex;
+    justify-content: space-around;
+}
+.post_card figure img{
+    width: 350px;
+    height: 250px;
+}
+.post_card{
+    width: 351px;
+    height: 517px;
+    border: 1px rgb(157, 156, 156) solid;
+    border-radius: 3px;
+    box-shadow: inset;
+}
+.post_card p{
+    width: 343px;
+    height: 140px;
+    font-size: 14px;
+    color: grey;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.post_card h4{
+    color: rgb(53, 51, 51);
+    font-size: 23px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.post_card h5{
+    color:grey;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 7px;
+    margin-right: 7px;
+    
+}
+.post_card i{
+    color: rgb(13, 209, 186);
+    font-size: 19px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.post_card button{
+    width: 120px;
+    height: 33px;
+    margin-left: 7px;
+    font-size: 16px;
+    border: 3px rgb(13, 209, 186) solid;
+    color: rgb(13, 209, 186);
+    background-color: white;
+    font-weight: bold;
+}
+.post_card button:hover{
+    background-color: rgb(13, 209, 186);
+    color:white;
+    border: 3px rgb(13, 209, 186) solid;
+}
+/*DONATE SECTION*/
+#donate{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 730px;
+}
+#donate h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+#donate h1 span{
+    color: rgb(13, 209, 186);
+}
+#donate .bg_video video{
+    position: absolute;
+    top:0; 
+    left:0;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.donate_form{
+    text-align: center;
+}
+.donate .donate_form form{
+    margin-top: 20px;
+    width:80%;
+    margin:20px auto;
+    padding:25px;
+    background:rgba(255,255,255,.1);
+    border-top: 2px solid rgba(255,255,255,.3);
+    border-left: 2px solid rgba(255,255,255,.3);
+    backdrop-filter: blur(.4rem);
+    box-shadow: 0 .3rem .5rem #000;
+    text-align: center;
+}
+.donate_form input,select{
+    width: 440px;
+    height: 37px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.donate_form .form_button button{
+    width: 150px;
+    height: 37px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: inherit;
+    border: 2px white solid;
+    margin-top: 20px;
+}
+/*FOOTER*/
+.footer_container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    height: 294px;   
+}
+.footer_container .footer_first h2{
+    color: rgb(13, 209, 186);
+    font-size: 35px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+.footer_container .footer_first h2 i{
+    color: rgb(13, 209, 186);
+    font-size: 30px;
+}
+.footer_container .footer_first p{
+    width: 400px;
+    height: 200px;
+    color: white;
+    font-size: 14px;
+}
+.footer_container .footer_second p i{
+    font-size: 20px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.footer_container .footer_second h2{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.footer_container .footer_second p{
+    color: white;
+    font-size: 15px;
+    margin-top: 7px;
+}
+.footer_container .footer_third h3{
+    margin-top: 60px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.footer_container .footer_third input{
+    width: 220px;
+    height: 33px;
+    border: 2px rgb(13, 209, 186) solid;
+}
+.footer_container .footer_third button{
+    width: 80px;
+    height: 33px;
+    border: 2px rgb(13, 209, 186) solid;
+    background-color: rgb(13, 209, 186);
+}
+.footer_container .footer_third button i{
+    font-size: 15px;
+    color: white;
+}
+.footer_container .footer_third button:hover{
+    background-color: white;
+}
